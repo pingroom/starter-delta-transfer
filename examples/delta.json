@@ -1,0 +1,20 @@
+{
+  "transferId": "catalog-update",
+  "title": "Catalog byte update",
+  "context": "Select the installed catalog version from your retained record.",
+  "targetHex": "484541442d434154414c4f472d56323a414c5048412c424554412c47414d4d412e454e44",
+  "baselines": [
+    {
+      "id": "v1",
+      "label": "Catalog v1",
+      "reference": "Installed release record v1",
+      "hex": "484541442d434154414c4f472d56313a414c5048412c424554412e454e44"
+    },
+    {
+      "id": "empty",
+      "label": "Empty catalog",
+      "reference": "Confirmed empty installed catalog",
+      "hex": ""
+    }
+  ]
+}
